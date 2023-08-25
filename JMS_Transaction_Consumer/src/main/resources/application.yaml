@@ -1,0 +1,10 @@
+queue_jndi_name_1: "queue1Tran"
+queue_jndi_name_2: "queue2Tran"
+connection_factory_jndi_name: "heinzCF"
+
+initial_context_factory: "com.solacesystems.jndi.SolJNDIInitialContextFactory"
+context_provider_url: "localhost:55554"
+context_security_principal: "heinz@heinzvpn"
+context_security_credentials: "heinz"
+
+force_rollback: "false"
