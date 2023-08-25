@@ -1,8 +1,8 @@
-bootstrap.servers: "pkc-419q3.us-east4.gcp.confluent.cloud:9092"
+bootstrap.servers: "<bootstrap-server>:port"
 key.serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
 #value.serializer: io.confluent.kafka.serializers.KafkaJsonSerializer
 value.serializer: io.confluent.kafka.serializers.json.KafkaJsonSchemaSerializer
-schema.registry.url: "https://psrc-4r3n1.us-central1.gcp.confluent.cloud"
+schema.registry.url: "<Registry-URL>"
 schema.registry.basic.auth.user.info: "<YOUR_API_KEY>:<YOUR_API_SECRET>"
 basic.auth.credentials.source: "USER_INFO"
 sasl.mechanism: "PLAIN"
